@@ -10,9 +10,13 @@ public class Main {
         Email mail4=new EmailWithSignature(new EmailWithEntete(new BaseEmail("Contenu mail 4")));
         Email mail5=new EmailWithEntete(new EmailWithSignature(new BaseEmail("Contenu mail 5")));
         mail1.envoyer();
+        System.out.println("--------------------------");
         mail2.envoyer();
+        System.out.println("--------------------------");
         mail3.envoyer();
+        System.out.println("--------------------------");
         mail4.envoyer();
+        System.out.println("--------------------------");
         mail5.envoyer();
     }
 }
